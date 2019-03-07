@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title> Project1 </title>
+  <title> yoyo </title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <meta charset="utf-8" />
   <link rel="stylesheet" href="styling/reset.css">
@@ -17,32 +17,43 @@
       </ul>
     </nav>
   </header>
-  <img id=yoyoPic src= "media/yoyoCont.png" alt="yoyo pic">
-  <h2>ALERT NEWS: Over the years there has been no yo yo competitions, until now. At Navy Pier, on March 32nd the a new competition arises!!!</h2>
-  <img id=user1 src="media/yoyo1.jpg" alt="yoyoer1">
-  <h2>Do you have what it takes! Join Now!!!!!</h2>
-  <img id=user2 src="media/yoyo2.jpg" alt="yoyoer2">
+  <figure id=mainPic>
+    <img id=yoyoPic src= "media/yoyoCont.png" alt="yoyo pic">
+    <figcaption>ALERT NEWS: Over the years there has been no yo yo competitions, until now. At Navy Pier, on March 32nd the a new competition arises!!!</figcaption>
+  </figure>
+    <img id=user1 src="media/yoyo1.jpg" alt="yoyoer1">
+    <h2>Do you have what it takes! Join Now!!!!!</h2>
 
 
+    <fieldset id=field>
+      <h3>Wanna ROLL</h3>
+      <form class="form" action="index.html" method="post">
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="email">
+        </div>
 
+        <div>
+          <label for="name">Full name</label>
+          <input type="name" name="fullName" placeholder="name">
+        </div>
+
+        <h5>Do you YOYO</h5>
+        <div>
+          <label for="yoyo">Yes</label>
+          <input type="checkbox" name="yes">
+          <label for="yoyo">No</label>
+          <input type="checkbox" name="no">
+        </div>
+
+        <input type="submit" name="submit" value="TIME TO YOYO">
+      </form>
+    </fieldset>
+
+    <img id=user2 src="media/yoyo2.jpg" alt="yoyoer2">
   <h5>NOTE: We also give discounts to new time users</h5>
 
-  <fieldset id=field>
-    <form class="form" action="index.html" method="post">
-      <label for="email">Email</label>
-      <input type="email" name="email" placeholder="email">
 
-      <label for="name">Full name</label>
-      <input type="name" name="fullName" placeholder="name">
-
-      <h5>Do you YOYO</h5>
-      <label for="yoyo">Yes</label>
-      <input type="checkbox" name="yes">
-      <label for="yoyo">No</label>
-      <input type="checkbox" name="no">
-
-    </form>
-  </fieldset>
 
 
 

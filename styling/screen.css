@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-color: black;
   margin: auto;
+  color: white;
 }
 
 ul {
@@ -25,8 +26,11 @@ li {
 
 
 
-h2 {
+#mainPic {
   color: white;
+  width: 70%;
+  margin: auto;
+
 }
 
 h1 {
@@ -39,14 +43,26 @@ h1 {
 }
 
 img{
-  width: 90%;
+  width: 60%;
   text-align: center;
   margin: auto;
 }
 
+#user2 {
+  width: 50%;
+}
 
 #field {
+    display: block;
   background-color: white;
   margin: auto;
-
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  max-width: 360px;
+  max-height: 180px;
+  border-radius: 600px;
+  color: black;
+  width: 75%;
+  line-height: 1.8;
 }
