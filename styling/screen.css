@@ -1,11 +1,8 @@
-#yoyoPic{
-  width: 500px;
-  text-align: center;
-  margin: auto;
-}
+
 
 body {
   text-align: center;
+  background-color: black;
 }
 
 ul {
@@ -17,4 +14,39 @@ ul {
 
 li {
   display: inline;
+}
+
+h2 {
+  color: white;
+}
+
+h1 {
+  color: white;
+  background-color: grey;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#yoyoPic{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+#user1{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+#user2{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+#field {
+  background-color: white;
+  margin: auto;
 }
