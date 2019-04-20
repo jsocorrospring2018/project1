@@ -90,7 +90,16 @@ figcaption {
     color: black;
   }
   nav {
-    background-color: black;
+    background-color: #222256;
+  }
+  li a{
+    color:white;
+  }
+  li a:hover{
+    background-color: red;
+  }
+  p {
+    color:black;
   }
 }
 
