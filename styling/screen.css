@@ -119,7 +119,9 @@ figcaption {
   margin-top: 0%;
   height: fit-content;
 }
-
+.panda {
+  width: 23%;
+}
 #user2 {
   width: 26%;
   padding-top: 7%;
