@@ -120,7 +120,7 @@ figcaption {
 
 #field {
   display: block;
-  background-color: #FC7878;
+  background-color: #222256;
   margin: auto;
   text-align: center;
   padding-top: 3%;
@@ -129,7 +129,7 @@ figcaption {
   max-height: 180px;
   min-height: 100px;
   border-radius: 50%;
-  color: black;
+  color: white;
   width: 75%;
   /* My line height */
   line-height: 2.25em;
