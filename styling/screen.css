@@ -94,8 +94,15 @@ figcaption {
   }
 }
 
-.note {
+.back{
+  padding-top: 1%;
+}
+.back a{
+  text-decoration: none;
+  color:red;
+}
 
+.note {
 }
 
 .name {
