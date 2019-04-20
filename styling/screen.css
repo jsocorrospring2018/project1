@@ -44,10 +44,25 @@ h1 {
   margin-right: auto;
 }
 
+h2 {
+    padding-bottom: 2%;
+    font-size: 258%;
+}
+
 img{
   width: 60%;
   text-align: center;
   margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+figcaption {
+
+}
+
+.note {
+
 }
 
 .name {
@@ -78,6 +93,28 @@ img{
   /* My line height */
   line-height: 2.25em;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+  }
+  figcaption{
+    color: black;
+  }
+  h2 {
+    color: black;
+  }
+  .note{
+    color: black;
+  }
+  h1 {
+    color: black;
+  }
+  nav {
+    background-color: black;
+  }
+}
+
 
 #mainPic {
   color: white;
