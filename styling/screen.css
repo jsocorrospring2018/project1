@@ -105,6 +105,7 @@ figcaption {
 
 .back{
   padding-top: 1%;
+  margin-right: 4%;
 }
 .back a{
   text-decoration: none;
@@ -157,4 +158,37 @@ figcaption {
   color: white;
   width: 70%;
   margin: auto;
+}
+
+#product1 {
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#product2 {
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#pro2 {
+  margin-right: 10%;
+}
+#product3 {
+  width: 65%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#pro3 {
+  padding-top:2.5%;
+  margin-right: 10%;
+}
+
+#orders  {
+  display: inline-flex;
 }

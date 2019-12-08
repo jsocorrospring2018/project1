@@ -1,0 +1,22 @@
+{
+  "name": "yo-yo-competition",
+  "version": "1.0.0",
+  "description": "Website On Yo Yo competition\r <br />\r ![image](https://user-images.githubusercontent.com/29586968/57811240-5f723800-772f-11e9-938d-258ac5a85688.png)",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsocorrospring2018/yo-yo-competition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsocorrospring2018/yo-yo-competition/issues"
+  },
+  "homepage": "https://github.com/jsocorrospring2018/yo-yo-competition#readme",
+  "dependencies": {
+    "firebase": "^7.5.2"
+  }
+}

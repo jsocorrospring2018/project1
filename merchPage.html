@@ -7,12 +7,37 @@
     <link rel="stylesheet" href="styling/reset.css">
     <link rel="stylesheet" href="styling/screen.css">
     <link rel="shortcut icon" href="toy05_114326.ico" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+
   </head>
   <body>
-    <h1>This site is going under maintenance sorry for the inconvience</h1>
-    <img class="panda" alt="smileyface" src="media/tenor.gif">
+    <script src="js/check.js"></script>
+    <h1>MerchSite Please Buy a yoyo</h1>
+      <ul id=orders>
+        <li>
+          <img id=product1 src= "media/pro1.png" alt="yoyo pic">
+          <p class="price">$19.99</p>
+          <p><button onclick="proYo1()">Buy NOW!!</button></p>
+        </li>
+        <li id=pro2>
+          <img id=product2 src= "media/pro2.png" alt="yoyo pic">
+          <p class="price">$9.99</p>
+          <p><button onclick="proYo2()">Buy NOW!!</button></p>
+        </li>
+        <li id=pro3>
+          <img id=product3 src= "media/pro3.png" alt="yoyo pic">
+          <p class="price">$29.99</p>
+          <p><button onclick="proYo3()">Buy NOW!!</button></p>
+        </li>
+      </ul>
     <p class="back">
         Go back <b> <a href="index.html">here</a></b>
     </p>
+
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+    <script src="js/firebase.js"></script>
   </body>
 </html>
